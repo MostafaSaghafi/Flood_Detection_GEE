@@ -2,7 +2,7 @@
 Detecting the flood and calculate the flooded area 
 --------
 
-This code is for detecting flood inundation and water bodies using Sentinel-1 SAR (Synthetic Aperture Radar) data in Google Earth Engine (GEE). It involves several steps, including data filtering, speckle noise reduction, flood and water body detection, visualization, and export of results. Let’s break it down line by line:
+This code is for detecting flood inundation and water bodies using Sentinel-1 SAR (Synthetic Aperture Radar) data in Google Earth Engine (GEE). It involves several steps, including data filtering, speckle noise reduction, flood and water body detection, visualization, and export of results.
 
 ---
 
