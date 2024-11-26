@@ -122,7 +122,7 @@ var title = ui.Panel({
  
 // Create legend title
 var mapTitle = ui.Label({
-  value: 'Flood Inundation in KamalKhan Dam, Afghanestan',
+  value: 'Flood Inundation,
   style: {
     fontWeight: 'bold',
     fontSize: '13px',
