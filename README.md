@@ -26,9 +26,9 @@ This section filters the Sentinel-1 GRD image collection:
 The commented-out date ranges likely represent different periods for analysis.  The variable `dt` (not defined in the provided code snippet) represents the region of interest (geometry). It's crucial for filtering and analysis.
 
 ```javascript
-var before = collection.filter(ee.Filter.date('2015-01-01', '2015-12-29'))
+var before = collection.filter(ee.Filter.date('2015-01-01', '2020-12-29'))
   .filterBounds(dt).max()
-var after = collection.filter(ee.Filter.date('2015-02-20', '2015-04-01'))
+var after = collection.filter(ee.Filter.date('2015-02-20', '2020-04-01'))
   .filterBounds(dt).min()
 ```
 
